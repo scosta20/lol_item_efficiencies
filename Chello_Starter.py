@@ -1,7 +1,7 @@
 import json
 import pandas as pd
 
-with open("lol_items.json") as items_file:
+with open("items.json") as items_file:
     json_items = json.loads(items_file.read())
 
 # Flatten the json like {"price": {"a": 1, "b": 3}} into "price.a": 1, "price.b": 3
